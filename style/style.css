@@ -176,3 +176,151 @@ section{
     cursor: pointer;
     background: blue;
 }
+/* Page 4 */
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.heading h2{
+    color:blue;
+    font-size: 1.5rem;
+}
+.heading span{
+    color: red;
+    font-size: 2rem;
+}
+.heading img{
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+.volley{
+    margin-top: 2rem;
+    margin: auto;
+    width:50%;
+    text-align: center;
+    padding:3rem;
+    background:gainsboro;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.volley img{
+    width:100%;
+}
+.center{
+    margin-left: 41%;
+    margin-top: 1rem;
+    padding:1rem;
+    border-radius: 1rem;
+    border:none;
+    font-size: 2rem;
+    cursor: pointer;
+    background: blue;
+}
+.news{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.news p{
+    font-size: 2rem;
+    margin-left: 10%;
+}
+.news img{
+    width:100%;
+    background:gainsboro;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.info{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.info .coach img{
+    background:gainsboro;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.info .coach p{
+    font-size: 1.5rem;
+    margin-left: 35%;
+    text-align: center;
+    padding:1rem;
+    width: 20%;
+    background:gainsboro;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.info .form{
+    width:50%;
+    background: black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.info .form .form-group{
+    padding:1rem;
+    margin: 1rem;
+}
+.info .form .form-group .form-control{
+    padding:1rem;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border:none;
+}
+.dropbtn {
+    background: gainsboro;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    width:150%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.form-group .btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border:none;
+    width:30%;
+    margin-left: 35%;
+}
+.form-group .btn:hover{
+    color: green;
+    background:red;
+    cursor: pointer;
+}
+
