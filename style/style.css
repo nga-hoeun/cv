@@ -131,13 +131,13 @@ section{
         background: blue;
     }
     .pictures{
-        margin-top: -4rem;
+        margin-top: -6.5%;
         display: flex;
         justify-content: center;
     }
     .pictures .icons{
         width:5%;
-        padding: 1rem;
+        padding: .5rem;
         border-radius: 50%;
     }
 }
@@ -206,7 +206,6 @@ section{
     }
     .pictures .icons{
         width:5%;
-        padding: 1rem;
         border-radius: 50%;
     }
 }
