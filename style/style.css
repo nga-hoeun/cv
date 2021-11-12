@@ -236,28 +236,113 @@ section{
 }
 .none .main-content .card img{
     margin-top: 1rem;
+    width:90%;
+}
+.none .main-content .card p{
+    margin: 10px;
 }
 .back{
     margin-top: 1rem;
     background: black;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .navigation .image{
+        width:20%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        display: flex;
+    }
+    .two{
+        display: grid;
+        text-align: center;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .none .main-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .none .main-content .card{
+        width:45%;
+        margin: 1rem;
+        text-align: center;
+        background: gainsboro;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
+@media screen and (max-width:600px){
+    .navigation .image{
+        width:30%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        margin-top: 0;
+        display: grid;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .none .main-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .none .main-content .card{
+        width:90%;
+        margin: 1rem;
+        text-align: center;
+        background: gainsboro;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .pictures .icons{
+        width:7%;
+        padding: .2rem;
+        border-radius: 50%;
+    }
 }
 /* thirdpage */
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/banner.jpg);
+    background: url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 15rem 0;
     margin: 0 1rem 1rem;
-    height: 0vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .banner h3{
     font-size: 2rem;
-    color:blue;
+    color:white;
 }
 .banner span{
     font-size: 3rem;
@@ -275,6 +360,10 @@ section{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .top .card-education img{
+    margin-top: 1rem;
+    width: 90%;
+}
+.top .card-education p{
     margin: 1rem;
 }
 .card-bottom{
@@ -294,21 +383,156 @@ section{
 }
 .card-bottom .text{
     text-align: center;
-    margin-left: 1rem;
 }
 .map{
     background: gainsboro;
     margin-top: 5rem;
     text-align: center;
 }
+.map iframe{
+    width:90%
+}
 .map button{
-    margin-top: 1rem;
+    margin: 1rem;
     padding:1rem;
     border-radius: 1rem;
     border:none;
     font-size: 2rem;
     cursor: pointer;
     background: blue;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .navigation .image{
+        width:20%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        display: flex;
+    }
+    .two{
+        display: grid;
+        text-align: center;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .banner h3{
+        font-size: 1.5rem;
+        color:white;
+    }
+    .banner span{
+        font-size: 2.5rem;
+        color:red;
+    }
+    .card-bottom .jpa{
+        width: 300%;
+    }
+    .card-bottom .text{
+        text-align: center;
+        margin: 1rem;
+    }
+    .map button{
+        margin: 1rem;
+        padding:1rem;
+        border-radius: 1rem;
+        border:none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        background: blue;
+    }
+}
+@media screen and (max-width:600px){
+    .navigation .image{
+        width:30%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        margin-top: 0;
+        display: grid;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .top{
+        display: grid;
+    }
+    .top .card-education{
+        margin: 1rem;
+        width:94%;
+        text-align: center;
+        background:gainsboro;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .card-bottom{
+        background:gainsboro;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin-top: 2rem;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+    .card-bottom .jpa{
+        width: 90%;
+    }
+    .card-bottom .text{
+        text-align: center;
+        margin: 1rem;
+    }
+    .map button{
+        margin: 1rem;
+        padding:1rem;
+        border-radius: 1rem;
+        border:none;
+        font-size: 1rem;
+        cursor: pointer;
+        background: blue;
+    }
 }
 /* Page 4 */
 .heading{
@@ -457,4 +681,30 @@ section{
     background:red;
     cursor: pointer;
 }
-
+@media screen and (min-width:600px) and (max-width:900px){
+    .navigation .image{
+        width:20%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        display: flex;
+    }
+    .two{
+        display: grid;
+        text-align: center;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+}
