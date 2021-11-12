@@ -18,6 +18,9 @@ body{
 .navigation .menu{
     display: flex;
 }
+.two{
+    display: flex;
+}
 .navigation .menu .active{
     background: greenyellow;
     border-radius: 1rem;
@@ -41,7 +44,6 @@ section{
 .about .profile{
     width:30%;
     margin: 2rem 0 5rem 0;
-
 }
 .about .profile img{
     width:100%;
@@ -74,6 +76,139 @@ section{
     width:5%;
     padding: 1rem;
     border-radius: 50%;
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .navigation .image{
+        width:20%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        display: flex;
+    }
+    .two{
+        display: grid;
+        text-align: center;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .about .profile{
+        width:40%;
+        margin: 2rem 0 5rem 0;
+    }
+    .about .profile img{
+        width:100%;
+    }
+    .about .body-text{
+        margin-top: 1.5rem;
+        margin-left:2rem;
+        width:30%;
+    }
+    .about .body-text p{
+        font-size: 1rem;
+    }
+    .about .body-text h1{
+        font-size: 2rem;
+    }
+    .about .body-text button{
+        width:100%;
+        padding:10px;
+        border-radius: 1rem;
+        border:none;
+        font-size: 1rem;
+        cursor: pointer;
+        background: blue;
+    }
+    .pictures{
+        margin-top: -4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .pictures .icons{
+        width:5%;
+        padding: 1rem;
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .navigation .image{
+        width:30%;
+    }
+    .navigation .image img{
+        width:100%;
+    }
+    .navigation .menu{
+        display: grid;
+    }
+    .two{
+        display: grid;
+        text-align: center;
+    }
+    .navigation .menu .active{
+        background: greenyellow;
+        border-radius: 1rem;
+    }
+    .navigation .menu li{
+        list-style: none;
+        padding:.5rem;
+    }
+    .navigation .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .about{
+        display: grid;
+    }
+    .about .profile{
+        text-align: center;
+        width:60%;
+        margin-left: 20%;
+    }
+    .about .profile img{
+        width:100%;
+    }
+    .about .body-text{
+        text-align: center;
+        margin-top: -4rem;
+        margin-left:25%;
+        width:50%;
+    }
+    .about .body-text p{
+        font-size: 1rem;
+    }
+    .about .body-text h1{
+        font-size: 2rem;
+    }
+    .about .body-text button{
+        width:100%;
+        padding:10px;
+        border-radius: 1rem;
+        border:none;
+        font-size: 1rem;
+        cursor: pointer;
+        background: blue;
+    }
+    .pictures{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    .pictures .icons{
+        width:5%;
+        padding: 1rem;
+        border-radius: 50%;
+    }
 }
 /* second page */
 .none{
