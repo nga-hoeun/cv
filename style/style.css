@@ -205,7 +205,8 @@ section{
         justify-content: center;
     }
     .pictures .icons{
-        width:5%;
+        width:10%;
+        padding: 1rem;
         border-radius: 50%;
     }
 }
