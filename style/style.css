@@ -209,6 +209,9 @@ section{
         padding: 1rem;
         border-radius: 50%;
     }
+    footer{
+        height: 1vh;
+    }
 }
 /* second page */
 .none{
