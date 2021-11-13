@@ -66,15 +66,20 @@ section{
     font-size: 2rem;
     cursor: pointer;
     background: blue;
+    color:white
 }
 .pictures{
-    margin-top: -3rem;
+    margin-top: -2.3rem;
     display: flex;
     justify-content: center;
 }
 .pictures .icons{
-    width:5%;
-    padding: 1rem;
+    width:7%;
+    padding: .5rem;
+    border-radius: 50%;
+}
+.pictures .icons img{
+    width:100%;
     border-radius: 50%;
 }
 @media screen and (min-width:600px) and (max-width:900px){
@@ -131,13 +136,17 @@ section{
         background: blue;
     }
     .pictures{
-        margin-top: -6.5%;
+        margin-top: -2rem;
         display: flex;
         justify-content: center;
     }
     .pictures .icons{
-        width:5%;
+        width:7%;
         padding: .5rem;
+        border-radius: 50%;
+    }
+    .pictures .icons img{
+        width:100%;
         border-radius: 50%;
     }
 }
@@ -203,14 +212,15 @@ section{
         margin-top: 0.5rem;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .pictures .icons{
         width:10%;
         padding: 1rem;
-        border-radius: 50%;
     }
-    footer{
-        height: 1vh;
+    .pictures .icons img{
+        width:100%;
+        border-radius: 50%;
     }
 }
 /* second page */
